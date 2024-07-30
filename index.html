@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- --------- UNICONS ---------- -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+    <!-- --------- CSS ---------- -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- --------- FAVICON ---------- -->
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+
+    <!-- --------- Email ---------- -->
+    <script type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+    <script type="text/javascript">
+        emailjs.init('G7ajSGiB1NOPTbiAy')
+    </script>
+
+    
+
+    <title>Portfolio | IgnacioWeigandt</title>
+</head>
+<body>
+   <div class="container">
+    <!-- --------------- HEADER --------------- -->
+      <nav id="header">
+        <div class="nav-logo">
+            <p class="nav-name">Weigandt</p>
+            <span>.</span>
+        </div>
+        <div class="nav-menu" id="myNavMenu">
+            <ul class="nav_menu_list">
+                <li class="nav_list">
+                    <a href="#home" class="nav-link active-link">Inicio</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="#about" class="nav-link">Acerca de</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="#projects" class="nav-link">Proyectos</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="#contact" class="nav-link">Contacto</a>
+                    <div class="circle"></div>
+                </li>
+            </ul>
+        </div>
+        <div class="nav-button">
+            <button class="downloadBtn btn" data-url="assets/otros/Currículum Analista de sistemas - Igancio Weigandt.pdf">Descargar CV <i class="uil uil-file-alt"></i></button>
+        </div>
+        <div class="nav-menu-btn">
+            <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+        </div>
+      </nav>
+
+
+ <!-- -------------- MAIN ---------------- -->
+    <main class="wrapper">
+        <!-- -------------- FEATURED BOX ---------------- -->
+        <section class="featured-box" id="home">
+            <div class="featured-text">
+                <div class="featured-text-card">
+                    <span>Ignacio Weigandt</span>
+                </div>
+                <div class="featured-name">
+                    <p><span class="typedText">Analista de sistemas</span></p>
+                </div>
+                <div class="featured-text-info">
+                    <p>Soy un analista de sistemas y desarrollador de software, con una sólida formación académica y un entusiasmo por aplicar mis conocimientos en el campo de la tecnología.</p>
+                </div>
+                <div class="featured-text-btn">
+                    <button class="btn blue-btn">Contrátame</button>
+                    <button class="downloadBtn btn" data-url="assets/otros/Currículum Analista de sistemas - Igancio Weigandt.pdf">Descargar CV <i class="uil uil-file-alt"></i></button>
+                </div>
+                <div class="solcial_icon">
+                    <div class="icon" id="instagram-icon"><i class="uil uil-instagram"></i></div>  
+                    <div class="icon"><i class="uil uil-linkedin-alt"></i></div>
+                    <div class="icon"><i class="uil uil-dribbble"></i></div>
+                    <div class="icon" id="github-icon"><i class="uil uil-github-alt"></i></div>
+                </div>
+            </div>
+            <div class="featured-image">
+                <div class="image">
+                    <img src="assets/images/avatar.jpeg" alt="avatar">
+                </div>
+              </div>
+            <div class="scroll-icon-box">
+                <a href="#about" class="scroll-btn">
+                    <i class="uil uil-mouse"></i>
+                    <p>Desplázate</p>
+                </a>
+            </div>
+        </section>
+
+         <!-- -------------- ABOUT BOX ---------------- -->
+          <section class="section" id="about">
+            <div class="top-header">
+              <h1>Acerca de</h1>
+            </div>
+            <div class="row">
+              <div class="col">
+                  <div class="about-info">
+                      <h3>Mi introduccion</h3>
+                      <p>Tengo experiencia en programación con C#, HTML, CSS y JavaScript, así como en el uso de Express para crear APIs. También estoy familiarizado con SQL Server para la gestión de bases de datos y Docker para la implementación de aplicaciones en contenedores.</p>
+                      <div class="about-btn">
+                        <button class="downloadBtn btn" data-url="assets/otros/Currículum Analista de sistemas - Igancio Weigandt.pdf">Descargar CV <i class="uil uil-file-alt"></i></button>
+                    </div>
+                  </div>
+              </div>
+              <div class="col">
+                  <div class="skills-box">
+                      <div class="skills-header">
+                          <h3>Frontend</h3>
+                      </div>
+                      <div class="skills-list">
+                          <span>HTML</span>
+                          <span>CSS</span>
+                          <span>JavaScript</span>
+                          <span>React</span>
+                          <span>Angular</span>
+                      </div>
+                  </div>
+                  <div class="skills-box">
+                      <div class="skills-header">
+                          <h3>Backend</h3>
+                      </div>
+                      <div class="skills-list">
+                          <span>PHP</span>
+                          <span>C#</span>
+                      </div>
+                  </div>
+                  <div class="skills-box">
+                      <div class="skills-header">
+                          <h3>Database</h3>
+                      </div>
+                      <div class="skills-list">
+                          <span>Sql Server</span>
+                          <span>PostgreSQL</span>
+                          <span>MongoDB</span>
+                      </div>
+                  </div>
+              </div>
+            </div>
+         </section>
+    
+<!-- -------------- PROJECT BOX ---------------- -->
+<section class="section" id="projects">
+    <div class="top-header">
+        <h1>Proyectos</h1>
+    </div>
+    <div class="project-container">
+        <div class="project-box" data-url="https://github.com/ignacioweigandt/pryWeigandtIE">
+            <i class="uil uil-github-alt"></i>
+            <img src="assets/images/proyecto1.png" alt="Project Image" class="project-image">
+            <h3>Sistema carga de Proveedores</h3>
+            <label>Proyecto universitario producido con el lenguaje C# y sql de bade de datos</label>
+        </div>
+        <div class="project-box"  data-url="https://github.com/ignacioweigandt/FINAL-Web2-">
+            <i class="uil uil-github-alt"></i>
+            <img src="assets/images/proyecto 2.png" alt="Project Image" class="project-image">
+            <h3>Pagina Web para consumir una API</h3>
+            <label>Proyecto de pagina web para consumir una ApiRest con html, css y express.js</label>
+        </div>
+        <div class="project-box" data-url="https://github.com/ignacioweigandt/TP3-Web2-">
+            <i class="uil uil-github-alt"></i>
+            <img src="assets/images/Proyecto3.png" alt="Project Image" class="project-image">
+            <h3>Pagina Web para The Rick and Morty API</h3>
+            <label>Proyecto de pagina web para consumir The Rick and Morty API</label>
+        </div>
+       
+    </div>
+</section>
+
+
+
+  
+ <!-- -------------- CONTACT BOX ---------------- -->
+ <section class="section" id="contact">
+    <div class="top-header">
+        <h1>Póngase en contacto</h1>
+        <span>¿Tienes un proyecto en mente? contáctame aquí</span>
+    </div>
+    <div class="row">
+        <div class="col">
+            <div class="contact-info">
+                <h2>Encuentrame <i class="uil uil-arrow-down"></i></h2>
+                <p><i class="uil uil-envelope"></i> Email: ignacioweiganrt@gmail.com</p>
+                <p><i class="uil uil-phone"></i> Tel: +54 9 3546407726</p>
+            </div>
+        </div>
+        <div class="col">
+            <form id="contact-form">
+                <div class="form-control">
+                    <div class="form-inputs">
+                        <input type="text" class="input-field" id="name" name="from_name" placeholder="Nombre">
+                        <input type="email" class="input-field" id="email" name="reply_to" placeholder="Email">
+                    </div>
+                    <div class="text-area">
+                        <textarea id="message" name="message" placeholder="Mensaje"></textarea>
+                    </div>
+                    <div class="form-button">
+                        <button type="submit" class="btn" id="send-button">Enviar <i class="uil uil-message"></i></button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+
+</main>
+ 
+    <!-- --------------- FOOTER --------------- -->
+
+    <footer>
+        <div class="top-footer">
+            <p>Ignacio Weigandt</p>
+        </div>
+        <div class="middle-footer">
+            <ul class="footer-menu">
+                <li class="footer_menu_list">
+                    <ul class="footer-menu">
+                        <li class="footer_menu_list">
+                            <a href="#home">Inicio</a>
+                        </li>
+                        <li class="footer_menu_list">
+                            <a href="#about">Acerca de</a>
+                        </li>
+                        <li class="footer_menu_list">
+                            <a href="#projects">Proyectos</a>
+                        </li>
+                        <li class="footer_menu_list">
+                            <a href="#contact">Contacto</a>
+                        </li>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-social-icons">
+            <div class="icon" id="instagram-icon-2"><i class="uil uil-instagram"></i></div>  
+            <div class="icon"><i class="uil uil-linkedin-alt"></i></div>
+            <div class="icon"><i class="uil uil-dribbble"></i></div>
+            <div class="icon" id="github-icon-2"><i class="uil uil-github-alt"></i></div>
+        </div>
+        <div class="bottom-footer">
+            <p>Copyright &copy; <a href="#home" style="text-decoration: none;">Ignacio Weigandt</a> - All rights reserved</p>
+        </div>
+    </footer>
+
+
+      
+
+
+
+   
+
+
+
+    <!-- ----- TYPING JS Link ----- -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+       <!-- ----- SCROLL REVEAL JS Link----- -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- ----- MAIN JS ----- -->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
